@@ -1,0 +1,14 @@
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\bin\Debug\net6.0\FruityBombData.deps.json
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\bin\Debug\net6.0\FruityBombData.runtimeconfig.json
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\bin\Debug\net6.0\FruityBombData.dll
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\bin\Debug\net6.0\FruityBombData.pdb
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\FruityBombData.csproj.AssemblyReference.cache
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\FruityBombData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\FruityBombData.AssemblyInfoInputs.cache
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\FruityBombData.AssemblyInfo.cs
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\FruityBombData.csproj.CoreCompileInputs.cache
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\FruityBombData.dll
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\refint\FruityBombData.dll
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\FruityBombData.pdb
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\FruityBombData.genruntimeconfig.cache
+C:\Users\Iveliya\Fruity-BombV2\FruityBombData\FruityBombData\obj\Debug\net6.0\ref\FruityBombData.dll
