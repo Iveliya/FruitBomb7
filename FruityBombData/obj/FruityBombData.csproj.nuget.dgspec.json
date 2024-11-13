@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iveliya\\Fruity-BombV2\\FruityBombData\\FruityBombData\\FruityBombData.csproj": {}
+    "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBombData\\FruityBombData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iveliya\\Fruity-BombV2\\FruityBombData\\FruityBombData\\FruityBombData.csproj": {
+    "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBombData\\FruityBombData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iveliya\\Fruity-BombV2\\FruityBombData\\FruityBombData\\FruityBombData.csproj",
+        "projectUniqueName": "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBombData\\FruityBombData.csproj",
         "projectName": "FruityBombData",
-        "projectPath": "C:\\Users\\Iveliya\\Fruity-BombV2\\FruityBombData\\FruityBombData\\FruityBombData.csproj",
+        "projectPath": "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBombData\\FruityBombData.csproj",
         "packagesPath": "C:\\Users\\Iveliya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iveliya\\Fruity-BombV2\\FruityBombData\\FruityBombData\\obj\\",
+        "outputPath": "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBombData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

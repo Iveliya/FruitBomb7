@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i0k7D6KQh60=",
+  "dgSpecHash": "N5iKyIa3YAw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Iveliya\\Fruity-BombV2\\FruityBombData\\FruityBombData\\FruityBombData.csproj",
+  "projectFilePath": "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBombData\\FruityBombData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Iveliya\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Iveliya\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
