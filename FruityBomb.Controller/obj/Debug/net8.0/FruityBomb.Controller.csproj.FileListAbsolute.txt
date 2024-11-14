@@ -1,0 +1,15 @@
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\bin\Debug\net8.0\FruityBomb.Controller.deps.json
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\bin\Debug\net8.0\FruityBomb.Controller.dll
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\bin\Debug\net8.0\FruityBomb.Controller.pdb
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.AssemblyInfoInputs.cache
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.AssemblyInfo.cs
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.csproj.CoreCompileInputs.cache
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.sourcelink.json
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.dll
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\refint\FruityBomb.Controller.dll
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.pdb
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\ref\FruityBomb.Controller.dll
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\bin\Debug\net8.0\FruityBomb.Controller.runtimeconfig.json
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.csproj.AssemblyReference.cache
+C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBomb.Controller\obj\Debug\net8.0\FruityBomb.Controller.genruntimeconfig.cache
