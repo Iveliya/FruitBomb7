@@ -35,6 +35,9 @@ namespace FruityBombData.Migrations
                     b.Property<int>("LevelId")
                         .HasColumnType("int");
 
+                    b.Property<int>("SymbolId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -43,6 +46,8 @@ namespace FruityBombData.Migrations
                     b.HasKey("PlayerId");
 
                     b.HasIndex("LevelId");
+
+                    b.HasIndex("SymbolId");
 
                     b.ToTable("Players");
                 });
@@ -115,7 +120,15 @@ namespace FruityBombData.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("FruityBombData.Data.Entities.Symbol", "Symbol")
+                        .WithMany()
+                        .HasForeignKey("SymbolId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Level");
+
+                    b.Navigation("Symbol");
                 });
 
             modelBuilder.Entity("FruityBombData.Data.Entities.Transaction", b =>

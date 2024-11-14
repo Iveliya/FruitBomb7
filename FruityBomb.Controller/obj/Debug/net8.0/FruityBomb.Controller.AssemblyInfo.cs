@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FruityBomb.Controller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e646e93ee21eed01c8f955e388ca9f1d0a461ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3bc7b3dc0f107a27d736d119f3890dbadd84cfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("FruityBomb.Controller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FruityBomb.Controller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

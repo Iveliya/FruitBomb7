@@ -1477,6 +1477,20 @@
             "rid": "win"
           }
         }
+      },
+      "FruityBombData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FruityBombData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FruityBombData.dll": {}
+        }
       }
     }
   },
@@ -4006,10 +4020,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "FruityBombData/1.0.0": {
+      "type": "project",
+      "path": "../FruityBombData/FruityBombData.csproj",
+      "msbuildProject": "../FruityBombData/FruityBombData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FruityBombData >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
@@ -4017,23 +4037,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Iveliya\\.nuget\\packages\\": {},
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBomb.Controller\\FruityBomb.Controller.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\FruitBomb7\\FruityBomb.Controller\\FruityBomb.Controller.csproj",
       "projectName": "FruityBomb.Controller",
-      "projectPath": "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBomb.Controller\\FruityBomb.Controller.csproj",
-      "packagesPath": "C:\\Users\\Iveliya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Iveliya\\OneDrive - Министерство на образованието и науката\\Desktop\\FruitBomb\\FruityBomb.Controller\\obj\\",
+      "projectPath": "C:\\Users\\Lenovo\\FruitBomb7\\FruityBomb.Controller\\FruityBomb.Controller.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\FruitBomb7\\FruityBomb.Controller\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Iveliya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4048,7 +4068,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\FruitBomb7\\FruityBombData\\FruityBombData.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\FruitBomb7\\FruityBombData\\FruityBombData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4103,7 +4127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

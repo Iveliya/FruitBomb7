@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FruityBombData.Migrations
 {
     [DbContext(typeof(CazinoDbContext))]
-    [Migration("20241114061149_InitialMig")]
-    partial class InitialMig
+    [Migration("20241114063625_InitialMigt")]
+    partial class InitialMigt
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,6 +38,9 @@ namespace FruityBombData.Migrations
                     b.Property<int>("LevelId")
                         .HasColumnType("int");
 
+                    b.Property<int>("SymbolId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -46,6 +49,8 @@ namespace FruityBombData.Migrations
                     b.HasKey("PlayerId");
 
                     b.HasIndex("LevelId");
+
+                    b.HasIndex("SymbolId");
 
                     b.ToTable("Players");
                 });
@@ -118,7 +123,15 @@ namespace FruityBombData.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("FruityBombData.Data.Entities.Symbol", "Symbol")
+                        .WithMany()
+                        .HasForeignKey("SymbolId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Level");
+
+                    b.Navigation("Symbol");
                 });
 
             modelBuilder.Entity("FruityBombData.Data.Entities.Transaction", b =>

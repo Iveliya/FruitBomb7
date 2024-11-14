@@ -5,7 +5,7 @@
 namespace FruityBombData.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMig : Migration
+    public partial class InitialMigt : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -45,6 +45,7 @@ namespace FruityBombData.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Username = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     LevelId = table.Column<int>(type: "int", nullable: false),
+                    SymbolId = table.Column<int>(type: "int", nullable: false),
                     Balance = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
@@ -55,6 +56,12 @@ namespace FruityBombData.Migrations
                         column: x => x.LevelId,
                         principalTable: "PlayerLevels",
                         principalColumn: "LevelId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Players_Symbols_SymbolId",
+                        column: x => x.SymbolId,
+                        principalTable: "Symbols",
+                        principalColumn: "SymbolId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -84,6 +91,11 @@ namespace FruityBombData.Migrations
                 column: "LevelId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Players_SymbolId",
+                table: "Players",
+                column: "SymbolId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Transactions_PlayerId",
                 table: "Transactions",
                 column: "PlayerId");
@@ -93,9 +105,6 @@ namespace FruityBombData.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Symbols");
-
-            migrationBuilder.DropTable(
                 name: "Transactions");
 
             migrationBuilder.DropTable(
@@ -103,6 +112,9 @@ namespace FruityBombData.Migrations
 
             migrationBuilder.DropTable(
                 name: "PlayerLevels");
+
+            migrationBuilder.DropTable(
+                name: "Symbols");
         }
     }
 }

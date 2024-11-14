@@ -22,6 +22,10 @@ namespace FruityBombData.Data.Entities
 
         [ForeignKey("LevelId")]
         public PlayerLevel Level { get; set; }
+        public int SymbolId { get; set; }
+
+        [ForeignKey("SymbolId")]
+        public Symbol Symbol { get; set; }
 
         [Required]
         [Range(0, Double.MaxValue)]
