@@ -20,7 +20,7 @@ namespace FruityBombData
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-63IMCT7\\SQLEXPRESS;Initial Catalog=JuiceBomb5;Integrated Security=True;TrustServerCertificate=True");
+                optionsBuilder.UseSqlServer("Data Source=DESKTOP-OMT97JR\\SQLEXPRESS;Initial Catalog=JuiceBombv1;Integrated Security=True;TrustServerCertificate=True");
             }
         }
     }

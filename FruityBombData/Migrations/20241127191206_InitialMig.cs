@@ -5,7 +5,7 @@
 namespace FruityBombData.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigt : Migration
+    public partial class InitialMig : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

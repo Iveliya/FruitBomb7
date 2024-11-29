@@ -15,7 +15,7 @@ namespace FruityBombData.Data.Entities
 
         [Required]
         [MaxLength(50)]
-        public string Name { get; set; }  // Име на символа
+        public string Name { get; set; }
 
         [Required]
         [Range(0, Double.MaxValue)]

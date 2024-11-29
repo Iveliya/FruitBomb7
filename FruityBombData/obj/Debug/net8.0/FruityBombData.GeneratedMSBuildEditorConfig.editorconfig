@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FruityBombData
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Iveliya\OneDrive - Министерство на образованието и науката\Desktop\FruitBomb\FruityBombData\
+=======
+build_property.ProjectDir = C:\Users\Fenix\Desktop\GitHub\SoftUni\FruitBomb7\FruityBombData\
+>>>>>>> 72f5addac805e09de46977a589b479bd56edc1cd
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

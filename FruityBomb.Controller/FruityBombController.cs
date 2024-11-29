@@ -64,12 +64,16 @@ namespace FruityBomb.Controller
             {
                 dic[name4]++;
             }
+
+            int count = 0;
             foreach (var x in dic)
             {
+                
                 if (x.Value >= 3)
                 {
                     result.Add(x.Key, x.Value);
                 }
+                
             }
             var P=context.Players.FirstOrDefault(x=>x.PlayerId== id);
             int symbolId = P.SymbolId;
@@ -77,11 +81,15 @@ namespace FruityBomb.Controller
             string newSymbol = null;
             foreach (var x in result)
             {
-                newSymbol=x.Value.ToString();
+                newSymbol=x.Key.ToString();
             }
-            int symbolIddd=context.Symbols.FirstOrDefault(s=>s.Name== newSymbol).SymbolId;
-            P.SymbolId = symbolIddd;
-            context.SaveChanges();
+            if (newSymbol!=null)
+            {
+                int symbolIddd = context.Symbols.FirstOrDefault(s => s.Name == newSymbol).SymbolId;
+                P.SymbolId = symbolIddd;
+                context.SaveChanges();
+            }
+
 
 
             return result;
@@ -90,7 +98,7 @@ namespace FruityBomb.Controller
 
         }
 
-        public decimal PayOut(int id)
+        public decimal PayOut(int id, decimal bet)
         {
 
             var player = context.Players.FirstOrDefault(x => x.PlayerId == id);
@@ -112,36 +120,53 @@ namespace FruityBomb.Controller
                 name = x.Key;
                 br = x.Value;
             }
-            double cherry = 0.80;
-            double bell = 2.40;
-            double eggplant = 1.30;
-            double watermelon = 1.80;
-            Symbol s1 = context.Symbols.FirstOrDefault(x => x.SymbolId == 1);
-            Symbol s2 = context.Symbols.FirstOrDefault(x => x.SymbolId == 2);
-            Symbol s3 = context.Symbols.FirstOrDefault(x => x.SymbolId == 3);
-            Symbol s4 = context.Symbols.FirstOrDefault(x => x.SymbolId == 4);
 
-            if (name == s1.Name)
+            Symbol cherry = context.Symbols.FirstOrDefault(x => x.SymbolId == 1);
+            Symbol bell = context.Symbols.FirstOrDefault(x => x.SymbolId == 2);
+            Symbol eggplant = context.Symbols.FirstOrDefault(x => x.SymbolId == 3);
+            Symbol watermelon = context.Symbols.FirstOrDefault(x => x.SymbolId == 4);
+
+            if (name == cherry.Name)
             {
-                price = br * (s1.Payout);
+                if (br == 4)
+                {
+                    price = (br * (cherry.Payout * (int)bet)) * 8;
+                }
+                else
+                price = br * (cherry.Payout * (int)bet);
             }
-            else if (name == s2.Name)
+            else if (name == bell.Name)
             {
-                price = br * s2.Payout;
+                if (br==4)
+                {
+                    price = (br * (bell.Payout * (int)bet))*8;
+                }
+                else
+                price = br * (bell.Payout * (int)bet);
             }
-            else if (name == s3.Name)
+            else if (name == eggplant.Name)
             {
-                price = br * s3.Payout;
+                if (br == 4)
+                {
+                    price = (br * (eggplant.Payout * (int)bet)) * 8;
+                }
+                else
+                    price = br * (eggplant.Payout * (int)bet);
             }
-            else if (name == s4.Name)
+            else if (name == watermelon.Name)
             {
-                price = br * s4.Payout;
+                if (br == 4)
+                {
+                    price = (br * (watermelon.Payout * (int)bet)) * 8;
+                }
+                else
+                    price = br * (watermelon.Payout * (int)bet);
             }
             return price;
         }
-        public decimal Balance(int id,decimal balance)
+        public decimal Balance(int id,decimal balance, decimal bet)
         {
-            var price = PayOut(id);
+            var price = PayOut(id, bet);
             decimal result = balance - price;
             return result;
             var p = context.Players.FirstOrDefault(x=>x.PlayerId==id);  

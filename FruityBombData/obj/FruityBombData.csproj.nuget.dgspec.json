@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\FruitBomb7\\FruityBombData\\FruityBombData.csproj": {}
+    "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombData\\FruityBombData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\FruitBomb7\\FruityBombData\\FruityBombData.csproj": {
+    "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombData\\FruityBombData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\FruitBomb7\\FruityBombData\\FruityBombData.csproj",
+        "projectUniqueName": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombData\\FruityBombData.csproj",
         "projectName": "FruityBombData",
-        "projectPath": "C:\\Users\\Lenovo\\FruitBomb7\\FruityBombData\\FruityBombData.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\FruitBomb7\\FruityBombData\\obj\\",
+        "projectPath": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombData\\FruityBombData.csproj",
+        "packagesPath": "C:\\Users\\Fenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
