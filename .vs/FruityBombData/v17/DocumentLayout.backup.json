@@ -87,8 +87,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombForm\\Form1.cs",
               "RelativeDocumentMoniker": "FruityBombForm\\Form1.cs",
-              "ToolTip": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombForm\\Form1.cs [Design]*",
-              "RelativeToolTip": "FruityBombForm\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombForm\\Form1.cs [Design]",
+              "RelativeToolTip": "FruityBombForm\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T19:05:15.746Z",
               "IsPinned": true,
@@ -129,9 +129,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombForm\\Form1.cs",
               "RelativeDocumentMoniker": "FruityBombForm\\Form1.cs",
-              "ToolTip": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombForm\\Form1.cs*",
-              "RelativeToolTip": "FruityBombForm\\Form1.cs*",
-              "ViewState": "AgIAAIEAAAAAAAAAAAA3wKQAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBombForm\\Form1.cs",
+              "RelativeToolTip": "FruityBombForm\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T19:28:51.308Z",
               "EditorCaption": ""
@@ -146,8 +146,7 @@
               "RelativeToolTip": "FruityBomb.Controller\\FruityBombController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T07:51:23.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T07:51:23.458Z"
             },
             {
               "$type": "Document",
@@ -159,8 +158,7 @@
               "RelativeToolTip": "FruityBomb.Controller\\FruityBomb.Controller.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAnwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T06:24:08.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T06:24:08.624Z"
             },
             {
               "$type": "Document",
@@ -291,8 +289,7 @@
               "ToolTip": "C:\\Users\\Fenix\\Desktop\\GitHub\\SoftUni\\FruitBomb7\\FruityBomb.Controller\\FruityBomb.Controller.csproj",
               "RelativeToolTip": "FruityBomb.Controller\\FruityBomb.Controller.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T06:24:16.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T06:24:16.242Z"
             },
             {
               "$type": "Document",
@@ -316,8 +313,7 @@
               "RelativeToolTip": "FruityBombData\\FruityBombData.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-13T09:12:40.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T09:12:40.129Z"
             }
           ]
         },
